@@ -9,3 +9,10 @@ class OperationCreate(BaseModel):
     instrument_type: str
     date: datetime
     type: str
+
+
+class ProductCreate(BaseModel):
+    id: int
+    price: str
+    product_name: str
+    date: datetime
